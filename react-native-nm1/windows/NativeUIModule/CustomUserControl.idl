@@ -1,0 +1,17 @@
+// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT License.
+
+namespace NativeUIModule {
+
+    [default_interface]
+    runtimeclass CustomUserControl : Windows.UI.Xaml.Controls.Control {
+    CustomUserControl();
+
+    static Windows.UI.Xaml.DependencyProperty LabelProperty {
+    get;
+    };
+    
+    String Label;
+    
+    }
+} // namespace NativeUIModuleXAML2
